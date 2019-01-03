@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.11.6",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jquery": "^3.3.1",
