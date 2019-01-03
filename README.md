@@ -1,7 +1,6 @@
 
 Thanks to tbakerx!!!
-### <a href="https://github.com/tbakerx/react-resume-template/blob/master/README.md
-">You can find the template here!</a> 
+### <a href="https://github.com/tbakerx/react-resume-template/blob/master/README.md">You can find the template here!</a> 
 
 
 # React JS Resume   
