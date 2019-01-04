@@ -78,7 +78,7 @@
       },
       {
         "name":"Django",
-        "description":"Django是我利用當兵的閒暇時間看影片自學，我了解MTV架構，如何設計Model，怎麼Migrate資料庫，View的內容怎麼回傳，知道如何使用Template模板的繼承。此外，我建了一個食譜分享的社群開發網站。",
+        "description":"Django是我利用當兵的閒暇時間看影片自學，我了解MTV架構，知道如何設計Model，怎麼去Migrate資料庫，View的內容怎麼回傳，知道如何使用Template模板的繼承。此外，我建了一個食譜分享的社群開發網站。",
         "image":"Django.jpg"
       },
       {
@@ -93,17 +93,17 @@
       },
       {
         "name":"Bootstrap 4",
-        "description":"我在為我的網站設計佈局時，經常使用Bootstrap。這是我最熟悉的框架，因此可以比其他框架更快地進行設計。",
+        "description":"我在設計網站時，經常使用Bootstrap。這是我最熟悉的框架，因此可以比其他框架更快地進行設計。",
         "image":"bootstrap.jpg"
       },
       {
         "name":"PostgreSQL",
-        "description":"PostgreSQL是我剛接觸的一個開源的，免費的，同時非常強大的關聯資料庫。雖然我在當兵時使用的資料庫是MySQL，但我覺得PostgreSQL很好用的原因在於，搭配PSequel應用程式，可以很方便的執行自定義過程。",
+        "description":"PostgreSQL是我剛接觸的一個開源的，免費的，強大的關聯資料庫。雖然我在當兵時使用的資料庫是MySQL，但我覺得PostgreSQL好用的地方在於，搭配PSequel應用程式，可以很方便的執行自定義過程。",
         "image":"PostgreSQL.jpg"
       },
       {
         "name":"Heroku",
-        "description":"我使用Heroku作為我的大多數項目的託管平台，因為到目前為止他們都是免費的。它與Github的整合，讓部署變得更簡單，更方便。",
+        "description":"我使用Heroku作為我的大多數專案的託管平台，因為到目前為止都是免費的。它與Github的整合，讓部署變得更簡單，更方便。",
         "image":"heroku.jpg"
       }
     ]
@@ -118,7 +118,7 @@
       },
       {
         "title":"2017-2018:軍事訓練役小幫手",
-        "category": "1. 單位: 陸軍司令部通資電子資訊處   2. 用途: 新兵抽部隊籤的相關業務，資料維護，列印點名名冊，匯入戶役政資料，幫長官開通帳號，查詢新兵接訓梯次等等... 3. 前端使用ASP.net，後端使用WPF，資料庫使用MySQL。",
+        "category": "1. 單位: 陸軍司令部通資電子資訊處  2. 用途: 新兵抽部隊籤的相關業務，資料維護，列印點名名冊，匯入戶役政資料，幫長官開通帳號，查詢新兵接訓梯次等等... 3. 前端使用ASP.net，後端使用WPF，資料庫使用MySQL。",
         "image":"fury-fighting-gear.jpg"
       },
       {
@@ -127,14 +127,6 @@
         "image":"original-thai-food.jpg"
       }
 
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"碩士論文",
-        "user":"蔡柏裕"
-      }
     ]
   }
 }
