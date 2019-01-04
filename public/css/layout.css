@@ -423,7 +423,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 60px/120px 'opensans-semibold', sans-serif;
+   font: 40px/60px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -473,7 +473,7 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
    height: 60px;
    width: 60px;
-   font-size: 18px;
+   font-size: 60px;
    line-height: 30px;
    text-align: center;
 
@@ -497,11 +497,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 30px/40px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 30px/60px 'opensans-light', sans-serif;
+   font: 20px/30px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -657,8 +657,8 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
