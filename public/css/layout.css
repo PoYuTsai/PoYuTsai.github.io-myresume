@@ -418,7 +418,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-      background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+      background: #1F1F1F url(../images/dark.jpg) no-repeat center center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -427,7 +427,7 @@ ul#nav li.current a { color: #F06000; }
    min-height: 200px;
    width: 100%;
    overflow: hidden;
-   
+
    padding-top: 10px;
    padding-bottom: 60px;
 }
@@ -655,7 +655,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/dark.jpg) no-repeat center center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    background-attachment: fixed;
