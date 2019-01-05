@@ -28,7 +28,7 @@ class About extends Component {
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>詳細聯絡資訊</h2>
+                  <h4>詳細聯絡資訊</h4>
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />

@@ -188,7 +188,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
+   padding-top: 30px;
    padding-bottom: 66px;
    overflow: hidden;
 }
@@ -418,8 +418,17 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #333;
-   padding-top: 90px;
+      background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+   
+   padding-top: 10px;
    padding-bottom: 60px;
 }
 #portfolio h1 {

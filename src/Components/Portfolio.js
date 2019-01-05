@@ -27,14 +27,14 @@ class Portfolio extends Component {
 
 
     return (
-      <div className="text-container" styles="margin-top:10px">
-         <div className="row" styles="height:29.7cm">
-            <h2 className="my-4">作品們</h2>
-              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-              </div>
-          </div>
-      </div>
+      <section id="portfolio">
+
+                <h2 className="my-4">作品們</h2>
+                  <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                    {projects}
+                  </div>
+     
+      </section>
     );
   }
 }
