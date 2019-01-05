@@ -7,14 +7,15 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+ projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
+           <a href={projects.url} title={projects.title}>
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h1>{projects.title}</h1>
+                  <h4>{projects.title}</h4>
                     <p>{projects.category}</p>
                 </div>
               </div>
 
-            <a href={projects.url} title={projects.title}>
+            
                <img alt={projects.title} src={projectImage} />
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
@@ -25,19 +26,15 @@ class Portfolio extends Component {
     }
 
 
-
     return (
-      <section id="portfolio">
-
-      <div className="row">
-         <div className="twelve columns collapsed">
-            <h1>作品們</h1>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+      <div className="text-container" styles="margin-top:10px">
+         <div className="row" styles="height:29.7cm">
+            <h2 className="my-4">作品們</h2>
+              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
-            </div>
+              </div>
           </div>
       </div>
-   </section>
     );
   }
 }

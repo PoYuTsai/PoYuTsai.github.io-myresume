@@ -36,33 +36,27 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"我所偏好與擅長的一些技術",
     "education":[
       {
         "school":"東海大學資訊工程研究所",
         "degree":"碩士",
-        "graduated":"2015/9-2017/7",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"September,2015~September,2017",
+        "description":"在跨區域的無線網路系統中，當手機(UE)需要換手到不可信任(即，雙方的電信營運商未簽訂共同服務雙方使用者條約)的異質網絡，如何選擇，且該怎麼選擇此網路下的基地台，以從事換手或無線區域網路卸載是一門課題: 在換手後，UE極有可能發現基地台的無線電信號強度指示符(RSSI)很強，但同時負載也很高。即使UE連接到也無法保證連線的服務品質。本論文中我們首先設計了一個名為E-ANDSF的增強型ANDSF，它使用植基於代理移動IPv6(PMIPv6)協議與一個由我們所開發的，名為多重屬性參數的基地台決策演算法，蒐集及提供正在服務UE的基地台足夠的信息，使原本的基地台(PMAG)得以選擇最適切的目標網路。另外，我們也提出了一種在非信任環境下使用ANDSF的IP無縫換手機制，該機制向E-ANDSF蒐集訊息及以串流控制傳輸協議(SCTP)，來幫助UE換手到適切的目標基地台，或為PMAG選擇最適切的基地台進行流量卸載。實驗使用NS3分別模擬在802.11n與802.11ac下，120次實驗，每組10個，加起來共2400筆數據(數據與程式碼皆可參考我Github的NS3專案)。我們的演算法(考慮多重參數: 例如負載，移動方向，角度，頻寬，RSSI，平均吞吐量，延遲，封包大小...等等)跟原先的方法(只考慮RSSI)相比，縮短平均延遲約3.2秒(802.11)與0.65秒(802.11c)。"
       },
       {
         "school":"東海大學資訊工程學系",
         "degree":"學士",
-        "graduated":"2011/9-2015/7",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"September,2011~July,2015",
+        "description":"大學專題使用Matlab軟體開發，系統情境融合了小紅帽與大野狼的童話故事。我們設計一個介面與許多問題，讓小朋友看完影片的故事後，可以舉左手或右手來回答這個問題。由此系統去判斷小朋友是舉左手還是右手，回答是否正確供老師跟家長參考。我們期望透過體感學習與結合多媒體數位化的方式，讓幼稚園老師與家長在互動式的教學上有實質的幫助。實驗使用筆電的Webcam，運用基礎的影像處理知識:二值化處理，找出最大區塊，去除雜訊，最後判斷輸出結果。"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":".Net軟體設計＠陸軍司令部",
+        "title":"人事軍務處新兵小組 ",
+        "years":"December,2017~December,2018 (1年義務役)",
+        "description":"讀完碩士後進去當兵，身為末代一年義務役，原本覺得會浪費一年，不過我運氣不錯，專長選兵的時候有選到可以寫code的單位 (感謝當初選我跟帶我的學長)。在同個單位也非常幸運能跟幾個很厲害的學長學習debug，操作MySQL資料庫。這一年來，義務役人力越來越少了，雜事跟哨雖然變得越來越多，每天工作都很忙碌，所幸跟長官們相處融洽，我還能利用閒暇時間自學Django，python，受益良多。我們在工作上主要的業務有：使用C#.Net開發陸軍軍職人事系統，供全台各地的長官查詢資料，如：兵力統計，編制/職缺/現員查詢。另外還有維護軍事訓練役小幫手(winform)，它是一個配籤輔助軟體，提供新訓單位便捷的服務。"
       }
     ],
     "skills":[
@@ -78,7 +72,7 @@
       },
       {
         "name":"Django",
-        "description":"Django是我利用當兵的閒暇時間看影片自學，我了解MTV架構，知道如何設計Model，怎麼去Migrate資料庫，View的內容怎麼回傳，知道如何使用Template模板的繼承。此外，我建了一個食譜分享的社群開發網站。",
+        "description":"Django是我利用當兵的閒暇時間看影片自學，我了解MTV架構，知道如何設計Model，怎麼去Migrate資料庫，View的內容怎麼回傳，使用Template模板的繼承。此外，我建了一個食譜分享的社群開發網站。",
         "image":"Django.jpg"
       },
       {
